@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-users-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi-users[sqlalchemy]>=15.0.5",
+    "fastapi[standard]>=0.141.1",
+    "openai>=3.19.2",
+    "pydantic-settings>=2.15.0",
+]
